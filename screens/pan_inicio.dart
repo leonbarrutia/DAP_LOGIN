@@ -21,7 +21,7 @@ class _PanInicioState extends State<PanInicio> {
     setState(() {
       if (usuario.isEmpty || password.isEmpty) {
         mensaje = "Los campos están vacíos";
-      } else if (usuario != "admin" || password != "1234") {
+      } else if (usuario != "Leon" || password != "Contraseña") {
         mensaje = "Usuario o contraseña incorrectos";
       } else {
         mensaje = "Login correcto";
